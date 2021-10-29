@@ -15,7 +15,7 @@ class CannonBall {
     World.add(world, this.body);
   }
 
-  //shooting the cannonball
+  //disparando la bala de cañón
   shoot() {
     var velocity = p5.Vector.fromAngle(cannon.angle);
     velocity.mult(20);
